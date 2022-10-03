@@ -1,0 +1,19 @@
+#elemento-1{
+    color:red;
+}
+ul li#elemento-1{
+    font-size: 2rem;
+}
+.supermercados {
+    background-color: aquamarine;
+    width: 200px;
+    height: 150px;
+}
+.articulos-compra {
+    background-color: darkslategray;
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    background-color: indigo;
+}
