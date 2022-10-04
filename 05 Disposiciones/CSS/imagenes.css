@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:firebrick;
+    font-size:x-large;
+    
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-content: center;    
+    align-items: center;
+}
+
+.encabezado{
+    position:absolute;    
+    display:flex;
+    opacity:1;
+    top: 40%;
+    left:40%;  
+
+}
+
+.imagen-principal{
+    width: 100vw;
+    opacity: 0.7;
+    object-fit: cover;
+    position: relative;    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.imagen-principal:hover{
+    opacity:1;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.galeria{
+    width: 300px;
+}
+
