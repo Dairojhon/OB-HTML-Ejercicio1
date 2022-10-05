@@ -1,0 +1,47 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkred;
+    color: aqua;
+    width: 500px;
+}
+
+.boton {
+    padding: 1rem, 1rem;
+    display: flex;    
+    width: 300px;
+    height: 32px;
+    border-radius: 3rem;
+    font-size: x-large;
+    position: relative;
+    background-color: cadetblue;
+    overflow: hidden;
+    border: 0ch;
+    align-content: center;
+    justify-content: center;
+}
+.boton::before {
+    content:'Pasa por encima';    
+    position: absolute;     
+    
+
+}
+.boton::after {
+    content:'¡Hecho!';    
+    position: absolute;       
+    opacity: 0;
+
+}
+.boton:hover {
+    background-color: green;
+    color: whitesmoke;        
+}
+.boton:hover::before{
+    opacity:0;
+}
+.boton:hover::after{
+    opacity:1;
+    
+}
+
+
+
