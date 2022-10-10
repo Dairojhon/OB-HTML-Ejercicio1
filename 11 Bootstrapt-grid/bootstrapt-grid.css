@@ -1,0 +1,9 @@
+.row{
+    margin: 0.25rem;
+    background-color: blueviolet;
+    
+}
+
+.col-sm-6{
+    background-color: aqua;
+}
